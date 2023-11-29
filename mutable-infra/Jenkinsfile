@@ -1,0 +1,5 @@
+@Library('jenkins-shared-library@main') _
+
+env.REPONAME="payment"
+env.TFDIR="mutable-infra"
+backendinfra()
